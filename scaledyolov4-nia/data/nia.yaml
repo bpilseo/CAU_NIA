@@ -1,0 +1,11 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: /yolo/images/nia_night_tvt/train
+val: /yolo/images/nia_night_tvt/val
+test: /yolo/images/nia_night_tvt/test
+
+# number of classes
+nc: 2
+
+# class names
+names: ['traffic_sign','traffic_light']
+# traiffic_sign: 0, traffic_light: 1
